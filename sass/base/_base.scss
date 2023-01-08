@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%; /* we want font size 10px and the default browser fontsz is 16px so we calculate the percentage which is 10/16 = .625*100 = 62.5% */
+}
+
+body {
+  box-sizing: border-box;
+}
